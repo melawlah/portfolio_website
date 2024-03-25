@@ -35,7 +35,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Over years, I've immersed myself in mastering HTML, CSS, JavaScript, and an array of other technologies, driven by an insatiable curiosity and a knack for problem-solving. I've become known for my meticulous attention to detail, obsessing over every pixel to create seamless user interfaces. Beyond my technical skills, my collaborative nature has flourished through volunteering and work experiences, teaching me the value of teamwork and mentorship. Now, armed with a passion for innovation and a hunger for new challenges, I'm excited to continue growing and contributing to the ever-evolving landscape of software development
+      Over the years, I've immersed myself in mastering HTML, CSS, JavaScript, and an array of other technologies, driven by an insatiable curiosity and a knack for problem-solving. I've become known for my meticulous attention to detail, obsessing over every pixel to create seamless user interfaces. Beyond my technical skills, my collaborative nature has flourished through volunteering and work experiences, teaching me the value of teamwork and mentorship. Now, armed with a passion for innovation and a hunger for new challenges, I'm excited to continue growing and contributing to the ever-evolving landscape of software development
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
