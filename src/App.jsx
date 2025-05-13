@@ -19,6 +19,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <div> Web design by<a href="https://eventsbylolar.com" target="_blank">MadeWithLux</a></div>
       </div>
     </BrowserRouter>
   )
