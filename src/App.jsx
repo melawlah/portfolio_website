@@ -19,7 +19,20 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <div> Web design by<a href="https://eventsbylolar.com" target="_blank">MadeWithLux</a></div>
+        <div className=" flex items-center justify-center">
+          <div className="text-gray-400 text-center pb-10">
+            Web design by{" "}
+            <a
+              href="https://madewithlux.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:underline"
+            >
+              MadeWithLux
+            </a>
+          </div>
+        </div>
+
       </div>
     </BrowserRouter>
   )
